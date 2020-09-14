@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #3cdbc0;
+}
+
+/* header */
+
+.header {
+  box-sizing: border-box;
+  border: solid 2px black;
+  margin: 0;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.image {
+  width: 155px;
+  display: flex;
+}
+
+.list {
+  box-sizing: border-box;
+  border: solid 2px black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
